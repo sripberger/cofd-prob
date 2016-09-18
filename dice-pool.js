@@ -9,9 +9,10 @@ class DicePool {
 
 	getDescription() {
 		let noun = (this.diceCount === 1) ? 'die' : 'dice';
-		let reroll = this.rerollThreshold || 'no 10';
+		let threshold = this.rerollThreshold || 'no 10';
+		let roteLabel = (this.rote) ? ', rote' : '';
 
-		return `${this.diceCount} ${noun}, ${reroll}-again`;
+		return `${this.diceCount} ${noun}, ${threshold}-again${roteLabel}`;
 	}
 
 	roll() {
