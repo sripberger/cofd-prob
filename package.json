@@ -1,0 +1,15 @@
+{
+  "name": "cofd-prob",
+  "version": "1.0.0",
+  "description": "Experimental probabilities for Chronicles of Darkness",
+  "main": "cofd-prob.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Ripberger",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "stats-lite": "^2.0.3"
+  }
+}
